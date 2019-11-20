@@ -23,6 +23,7 @@
 // THE SOFTWARE.
 
 
+#import <UIKit/UIKit.h>
 #import "IQPlaybackDurationView.h"
 #import "NSString+IQTimeIntervalFormatter.h"
 
