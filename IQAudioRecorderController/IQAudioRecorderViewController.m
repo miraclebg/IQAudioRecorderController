@@ -884,7 +884,7 @@
 
 -(void)messageDisplayViewDidTapOnButton:(IQMessageDisplayView *)displayView
 {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString] options:@{} completionHandler:nil];
 }
 
 #pragma mark - Private helper
